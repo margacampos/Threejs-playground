@@ -1,0 +1,24 @@
+html,
+body {
+  background-color: rgb(255, 187, 85);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  color: rgb(255, 238, 215);
+  max-width: 50vw;
+  font-size: 5rem;
+}
+main {
+  padding-left: 3rem;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
