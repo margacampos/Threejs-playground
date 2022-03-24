@@ -49,7 +49,7 @@ dracoloader.setDecoderPath('three/examples/js/libs/draco/gltf/');
 
 const loader = new GLTFLoader();
 loader.setDRACOLoader(dracoloader);
-loader.load('/assets/adamHead.gltf', function(gltf){
+loader.load('/models/adamHead.gltf', function(gltf){
     const model = gltf.scene;
     model.position.set(0,0,0);
     model.scale.set(1,1,1); 
@@ -62,7 +62,7 @@ loader.load('/assets/adamHead.gltf', function(gltf){
 }, undefined, function(e){
     console.log(e);
 })
-loader.load('/assets/firsttry.glb', function(gltf){
+loader.load('/models/firsttry.glb', function(gltf){
     const model = gltf.scene;
     model.position.set(2,-1,1);
     model.scale.set(0.5,0.5,0.5); 
